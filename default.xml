@@ -5,6 +5,7 @@
     <default remote="origin" revision="main" />
 
     <!-- 子仓库配置 -->
-    <project name="ecaps_client" path="client" revision="main" />
-    <project name="ecaps_server" path="server" revision="main" />
+    <project name="ecaps_client" path="client" revision="main" /> <!-- 客户端仓库 -->
+    <project name="ecaps_server" path="server" revision="main" /> <!-- 服务端仓库 -->
+    <project name="ecaps_driver" path="driver" revision="main" /> <!-- 驱动仓库 -->
 </manifest>
