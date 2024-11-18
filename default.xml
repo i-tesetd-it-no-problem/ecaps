@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="origin" fetch="https://github.com/i-tesetd-it-no-problem/" />
+
+    <default remote="origin" revision="main" />
+
+    <project name="ecaps_client" path="client" />
+    <project name="ecaps_server" path="server" />
+</manifest>
