@@ -4,6 +4,7 @@
 
     <default remote="origin" revision="main" />
 
-    <project name="ecaps_client" path="client" />
-    <project name="ecaps_server" path="server" />
+    <!-- 子仓库配置 -->
+    <project name="ecaps_client" path="client" revision="main" />
+    <project name="ecaps_server" path="server" revision="main" />
 </manifest>
